@@ -1,0 +1,51 @@
+Type,Vector,Label,Description,To_Scale,Aggregation,
+Population,v_CA16_401,Population,Population as of 2016 census,TRUE,Sum,
+Age,v_CA16_379,Age_Average,Average age,FALSE,Mean,
+,v_CA16_4,Age_0-14,Total People Aged 0-14,TRUE,Sum,M: 5 F: 6
+,v_CA16_64,Age_15-19,Total People Aged 15-19,TRUE,Sum,M: 65 F: 66
+,v_CA16_82,Age_20-14,Total People Aged 20-24,TRUE,Sum,M: 83 F: 84
+,v_CA16_100,Age_25-29,Total People Aged 25-29,TRUE,Sum,M: 101 F:102
+,v_CA16_118,Age_30-34,Total People Aged 30-34,TRUE,Sum,M: 119 F: 120
+,v_CA16_136,Age_35-39,Total People Aged 35-39,TRUE,Sum,M: 137 F: 138
+,v_CA16_154,Age_40-44,Total People Aged 40-44,TRUE,Sum,M: 155 F: 156
+,v_CA16_172,Age_45-49,Total People Aged 45-49,TRUE,Sum,M: 173 F: 174
+,v_CA16_190,Age_50-54,Total People Aged 50-54,TRUE,Sum,M: 191 F: 192
+,v_CA16_208,Age_55-59,Total People Aged 55-59,TRUE,Sum,M: 209 F: 210
+,v_CA16_226,Age_60-64,Total People Aged 60-64,TRUE,Sum,M: 227 F: 228
+,v_CA16_247,Age_65-69,Total People Aged 65-69,TRUE,Sum,M: 248 F: 249
+,v_CA16_265,Age_70-74,Total People Aged 70-74,TRUE,Sum,M: 266 F: 267
+,v_CA16_283,Age_75-79,Total People Aged 75-79,TRUE,Sum,M: 284 F: 285
+,v_CA16_301,Age_80-84,Total People Aged 80-84,TRUE,Sum,M: 302 F: 303
+,v_CA16_319,Age_Over85,Total People Over 85,TRUE,Sum,M: 320 F: 321
+Land Area,v_CA16_407,Land_Area_KM,Land Area in square kilometers,TRUE,Sum,
+Household Size,v_CA16_424,Persons_in_Households,Number of persons in private households,TRUE,Sum,
+,v_CA16_418,Number_Of_Private_Households,Number of total private households,TRUE,Sum,
+Apartment Height,v_CA16_410,Apartment_Greater_Or_Equal_To_Five_Storeys,Occupied private dwelling in apartment building with five or more storeys,TRUE,Sum,
+,v_CA16_415,Apartment_Less_Than_Five_Storeys,Occupied private dwelling in apartment building with less than five storeys,TRUE,Sum,
+Children,v_CA16_492,Couples_Without_Children,Couples without children in private households,TRUE,Sum,
+,v_CA16_493,Couples_With_Children,Couples with children in private households,TRUE,Sum,Can be broken into 1 child (494) 2 (495) >=3(496)
+,v_CA16_497,Lone_Parent,Lone parent with children,TRUE,Sum,Can be broken into 1 child (498) 2 (499) >=3(500)
+Employment Sector,v_CA16_5699,Total_Workforce,Total employed population,TRUE,Sum,M: 5700 F: 5701
+,v_CA16_5720,Retail_Workforce,Total employed population in retail (NAICS: 44-45),TRUE,Sum,"M: 5721, F: 5722"
+,v_CA16_5744,Education_Workforce,Total employed population in education (NAICS: 61),TRUE,Sum,"M:5745, F: 5746"
+,v_CA16_5747,Healthcare_Workforce,Total employed population in healthcare/social assistance (NAICS: 62),TRUE,Sum,"M: 5748, F:5749"
+Income,v_CA16_4957,Average_Income,"Average Income for 15yrs+ Population in 2015 (2016 census, 25% sample data)",FALSE,Mean,M: 4958 F: 4959
+Low Income Measures,v_CA16_2525,LIMAT,Low income based on the low-income measure after tax (LIMAT) (100% Data),TRUE,Sum,"M: 2526 F:2527 (can be split by age and gender [0-17 - 2528 M: 2529 F: 2530], [18-64 - 2534 M: 2535 F: 2536], [65+ - 2537 M: 2538 F: 2539])"
+,v_CA16_2555,LICOAT,low income based on the low income cut offs after tax (100% Data),TRUE,Sum,"M: 2556 F:2557 (can be split by age and gender [0-17 - 2558 M: 2559 F: 2560], [18-64 - 2564 M: 2565 F: 2566], [65+ - 2567 M: 2568 F: 2569])"
+Multiple-Census Households,v_CA16_508,Multi_Census_Households,Multiple-census-family households (100% Data),TRUE,Sum,
+Visible Minorities,v_CA16_3957,Visible_Minority_Population,Total visible minority population (25% Data),TRUE,Sum,M: 3958 F: 3959
+,v_CA16_3963,Chinese_Population,Total Chinese population (25% Data),TRUE,Sum,M: 3964 F: 3965
+Indigenous Population (called Aboriginal in the Census),v_CA16_3861,First_Nations_Population,Total (self-identified) First Nations Peoples (25% Data),TRUE,Sum,M: 3862 F: 3863
+,v_CA16_3864,Metis_Population,Total (self-identified) Métis People (25% Data),TRUE,Sum,M: 3865 F: 3866
+,v_CA16_3867,Inuit_Population,Total (self-identified) Inuit People (25% Data),TRUE,Sum,M: 2868 F: 3869
+,v_CA16_3870,Multiple_Indigenous_Indenities_Population,Total (self-identified) Multiple Indigenous Identities (25% Data),TRUE,Sum,M: 3871 F:3872
+Public Transportation Utilization,v_CA16_5801,Public_Transportation_Commute,Population that uses public transportation for their commute (25% Data),TRUE,Sum,M: 5802 F: 5803
+Education,v_CA16_5054,No_Certificate_Diploma_Degree,Population without any educational degree (25% Data),TRUE,Sum,M: 5055 F: 5056
+,v_CA16_5057,Secondary_School_Or_Equivalent,Population with a SS diploma or equiv. as their highest education,TRUE,Sum,M: 5058 F: 5059
+,v_CA16_5066,Trades_Certificate,Population with a trades certificate other than Certificate of Apprenticeship or Certificate of Qualification as their highest education,TRUE,Sum,M: 5067 F:5068
+,v_CA16_5069,Certificate_Of_Apprenticeship_or_Qualification,Population with a Certificate of Apprenticeship or Qualification as their highest education,TRUE,Sum,M: 5070 F: 5071
+,v_CA16_5072,College_Or_CEGEP_Diploma,"Population with a college, CEGEP, or other non-university certification/diploma as their highest level of education",TRUE,Sum,M: 5073 F: 5074
+,v_CA16_5075,University_Diploma_Below_Bachelor,Population with a university certificate or diploma below the Bachelor level as their highest level of education,TRUE,Sum,M: 5076 F: 5077
+,v_CA16_5084,University_Bachelors_Degree,Population with a Bachelor's degree as their highest level of education,TRUE,Sum,M: 5082 F: 5083
+,v_CA16_5090,University_Masters_Degree,Population with a Master's degree as their highest level of education,TRUE,Sum,M: 5091 F: 5092
+,v_CA16_5093,University_Earned_Doctorate,Population with an Earned Doctorate as their highest level of education,TRUE,Sum,M: 5094 F: 5095
